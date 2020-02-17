@@ -1,0 +1,13 @@
+/* component/h-goods/h-goods.wxss */
+.goodslist {
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly
+
+}
+.goodslist > .item {
+  width: 48%;
+  position: relative;
+  margin-top: 16rpx
+}

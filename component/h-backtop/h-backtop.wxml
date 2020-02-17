@@ -1,0 +1,4 @@
+<!--component/h-backTop/h-backtop.wxml-->
+<view class="backtop" bindtap="backtop">
+  <image src="/assets/common/top.png"/>
+</view>

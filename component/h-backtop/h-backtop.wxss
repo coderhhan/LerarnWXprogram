@@ -1,0 +1,10 @@
+/* component/h-backTop/h-backtop.wxss */
+.backtop {
+ position: fixed;
+ right: 10rpx;
+ bottom: 10rpx
+}
+.backtop image{
+  width: 120rpx;
+  height: 120rpx
+}

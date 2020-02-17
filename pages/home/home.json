@@ -1,3 +1,12 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "h-swiper":"/component/h-swiper/h-swiper",
+    "h-recommend":"./childCpns/h-recommend/h-recommend",
+    "h-tab-control":"/component/h-tab-control/h-tab-control",  
+    "h-backtop":"/component/h-backtop/h-backtop",
+    "h-goods": "/component/h-goods/h-goods"
+
+  },
+  "navigationBarTitleText": "首页",
+  "enablePullDownRefresh": true
 }

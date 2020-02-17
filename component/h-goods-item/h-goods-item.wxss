@@ -1,0 +1,27 @@
+/* component/h-goods-item/h-goods-item.wxss */
+.goods-item {
+    padding-bottom: 80rpx
+ 
+}
+.goods-item image{
+  border-radius:10rpx;
+  width: 100%
+}
+
+.title{
+  font-size: 24rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow:ellipsis
+}
+.desc-info{
+  text-align: center;
+  font-size: 24rpx;
+  left: 0;
+  right: 0;
+  bottom: 5rpx;
+  position: absolute
+}
+.price{
+  color: #ff5777
+}

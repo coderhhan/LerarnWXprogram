@@ -1,4 +1,4 @@
-// pages/about/about.js
+// pages/category/category.js
 Page({
 
   /**
@@ -12,7 +12,8 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    
+    console.log(options)
   },
 
   /**
@@ -62,5 +63,11 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  back(){
+    console.log('被点击')
+    wx.navigateBack({
+      delta: 1
+    })
   }
 })

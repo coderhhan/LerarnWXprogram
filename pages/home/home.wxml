@@ -1,3 +1,14 @@
-<!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
-<button size="mini">按钮</button>
+ <!-- 轮播图 -->
+<h-swiper list="{{banner}}"/> 
+<!-- 推荐数据 -->
+<h-recommend recommend="{{recommend}}"/>
+
+<view class="popular">
+  <image src="/assets/home/popular_bg.jpg" />
+</view>
+
+<h-tab-control titles="{{titles}}" bind:tabItemClick="tabClick" />
+
+<h-goods goods="{{goods[currentType].list}}"/>
+
+<h-backtop wx:if="{{showbacktop}}"/>

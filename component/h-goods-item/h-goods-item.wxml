@@ -1,0 +1,11 @@
+<!--component/h-goods-item/h-goods-item.wxml-->
+<view class="goods-item">
+      <image src="{{item.show.img}}" mode="widthFix"></image>
+      <view class="desc-info">
+        <view class="title">{{item.title}}</view>
+        <view class="info">
+           <text class="price">￥{{item.price}}</text>
+           <text>人气{{item.cfav}}</text>
+        </view>
+      </view>
+  </view>

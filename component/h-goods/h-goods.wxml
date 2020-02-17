@@ -1,0 +1,5 @@
+<view class="goodslist">
+  <block wx:for="{{goods}}" wx:key="index">
+     <h-goods-item class="item" item="{{item}}"/>
+  </block>
+</view>
